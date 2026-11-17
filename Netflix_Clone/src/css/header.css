@@ -1,0 +1,71 @@
+.main-header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+
+#netflix_title {
+    font-family: Bebas Neue;
+    color: #E50914;
+}
+
+.header_buttons,
+.header_search {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+
+}
+
+#profileImg,
+#profileImgbtn {
+    width: 50px;
+    height: 50px;
+}
+
+#home,
+#mynetflxi,
+#profile {
+    width: 15vh;
+    height: 6vh;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: 800;
+    border-style: none;
+    color: white;
+    background-color: #3B4043;
+}
+
+#searchIcon {
+    background-color: black;
+    border: none;
+}
+
+.header_search form input {
+    border-radius: 8px;
+    height: 4vh;
+    border: none;
+    color: black;
+    gap: 8px;
+}
+
+.form {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+}
+
+#home:hover,
+#mynetflxi:hover {
+    color: white;
+    background-color: #676a6b;
+}

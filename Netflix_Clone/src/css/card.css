@@ -1,0 +1,67 @@
+.content-wrapper {
+    width: 100%;
+    height: 95vh;
+    padding-top: 70px;
+}
+
+.netflixOriginalscard {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 20px;
+    opacity: 0.8;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+
+    background-image: var(--bg-image);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.netflixOriginalsdetails {
+    margin: 20px;
+    padding: 20px;
+    width: 60vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    font-size: large;
+}
+
+.netflixOriginalsdetails>h2 {
+    font-size: xx-large;
+}
+
+#netflixOriginals_genre {
+
+    font-size: small;
+}
+
+.netflixOriginalsButtons {
+    margin: 20px;
+    padding: 20px;
+    width: 40vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.netflixOriginalsButtons>button {
+    width: 15vh;
+    height: 6vh;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: 800;
+    border-style: none;
+}
+
+.netflixOriginalsButtons>button:hover {
+    background-color: #8b8c8d;
+}

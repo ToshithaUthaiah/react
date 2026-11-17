@@ -1,0 +1,21 @@
+.trendingdocComponent {
+    display: flex;
+    flex-direction: row;
+    height: 25vh;
+    overflow: auto;
+    align-items: stretch;
+}
+
+.individualtrendingdoc_css {
+    width: 20%;
+    margin: 3px;
+    padding: 5px;
+    font-size: 20px;
+    flex-shrink: 0;
+    background-image: var(--trendingdocimg);
+    border-radius: 20px;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
